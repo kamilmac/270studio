@@ -1,0 +1,28 @@
+{
+  "name": "owlnode",
+  "version": "0.0.2",
+  "description": "Owl portfolio with node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KMLM",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "~3.5.5",
+    "gulp-sass": "~0.7.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.2.1",
+    "gulp-rename": "~1.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp-livereload": "~1.2.0",
+    "gulp-clean": "~0.2.4",
+    "node-static": "~0.7.3",
+    "express": "~3.4.8",
+    "nodemon": "~1.0.15",
+    "supervisor": "~0.5.7",
+    "nib": "~1.0.2",
+    "nodemailer": "~0.6.1",
+    "gulp-stylus": "~0.1.0"
+  }
+}

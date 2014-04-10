@@ -1,0 +1,395 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,button,input,select,textarea {color: #222;}
+body {font-size: 1em;line-height: 1.4;}
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection {background: #b3d4fc;text-shadow: none;}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+img {vertical-align: middle;}
+fieldset {border: 0;margin: 0;padding: 0;}
+textarea {resize: vertical;}
+.chromeframe {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+	width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+}   
+   
+html {
+
+
+
+
+
+	 
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}   
+
+h1 {
+	font-weight: 100;
+	color: white;
+	font-size: 10em;
+	padding: 0px;
+	margin: 0px;
+	letter-spacing: 0.2em;
+	text-shadow: 16px 0px white;
+}
+
+h2 {
+	font-weight: 100;
+	color: white;
+	font-size: 6em;
+	padding: 0px;
+	margin: 0px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-shadow: 1px 0px grey;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: white;
+	font-size: 1.5em;
+	padding: 0px;
+	margin: 0px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-shadow: 1px 0px grey;
+}
+
+#header {
+	text-align: center;
+	background: url("../img/bg.jpg") repeat fixed;
+	
+}  
+
+#header p {
+	position:relative;
+	color: white;
+	margin-bottom: 0px;
+	left: 585px;
+	top: -65px;
+	font-size: 1.2em;
+}
+
+nav {
+    background: #e2e2e2;
+    margin-top: 0px;
+	font-size: 1.1em;
+	color: black;
+}
+
+nav ul {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	letter-spacing: 0.3em;
+} 
+ 
+nav li {
+	margin-right: 30px;
+	display: inline;
+	cursor: pointer;
+}   
+
+#int_btn:hover {border-top: 80px solid #fff39b;}
+#ext_btn:hover {border-top: 80px solid #7bd8d8;}
+#model_btn:hover {border-top: 80px solid #ffd6a0;}
+#logo_btn:hover {border-top: 80px solid #abeab3;}
+
+#wrapper {
+	width: 100%;
+	border-top: 1px solid #bababa;
+	
+background: rgb(0,0,0); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNzhlNWZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 22%, rgba(120,229,251,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,rgba(0,0,0,1)), color-stop(100%,rgba(120,229,251,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 22%,rgba(120,229,251,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,1) 22%,rgba(120,229,251,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,1) 22%,rgba(120,229,251,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 22%,rgba(120,229,251,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#78e5fb',GradientType=0 ); /* IE6-8 */
+
+
+} 
+
+#opabg {
+    
+    /*height: 1000px;
+    background: url("../img/pattern.png") repeat; */
+}
+
+#thumb_wrapper {
+    width: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#vis {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    width: 900px;
+}
+
+#img_wrap {
+    position: relative;
+    height: 600px;
+    width: 900px;
+    overflow: hidden;
+    border-bottom: 0px solid #bababa;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#img1, #img2 {
+    position: absolute;
+}
+
+#vis figcaption {
+    position: relative;
+	background: #f4f4f4;
+	color: black;
+	margin: 0 auto;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid #bababa;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 10px 190px #78E5FB;
+}
+
+
+
+
+
+
+
+
+#about {
+    color: white;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#about p {
+	padding: 20px;
+	margin: 0 auto;
+	width: 900px;
+	line-height: 2.5em;
+	letter-spacing: 0.1em;
+	border-top: 1px dotted #bababa;
+	border-bottom: 1px dotted #bababa;
+	font-size: 1.1em;
+}
+
+
+#contact {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+footer {
+	font-size: 0.8em;
+	height: 20px;
+	background:black;
+	box-shadow: 0px 0px 1px 3px #78E5FB;
+	margin-top: 0px;
+	color:grey;
+	padding: 10px;
+}  
+   
+   
+	/*  Dynamically created thumbnails  */  
+   
+	.exterior, .interior, .model, .logo {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		height: 60px;
+		width: 60px;
+		overflow: hidden;
+	}
+
+	.exterior {border: 0px solid #7bd8d8;}
+	.interior {border: 0px solid #fff39b;}
+	.model {border: 0px solid #ffd6a0;}
+	.logo {border: 0px solid #abeab3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

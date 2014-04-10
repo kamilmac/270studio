@@ -1,0 +1,395 @@
+@import 'nib'
+global-reset()
+
+$green = #43F3B7
+$dark = #333
+$bright = #DDD
+
+#header
+    position relative
+    border-top 3px solid $dark
+    z-index 1
+    height 686px
+    background linear-gradient(to right,  #b7b7b7 0%,#ffffff 30%,#ffffff 70%,#b7b7b7 100%)
+
+h1
+    font 400 400%/100px "Courier New", Courier, monospace
+    color $dark
+    text-align center
+    span
+        color $green
+        text-shadow 2px 2px #555
+
+h2
+    color $dark
+    text-transform lowercase
+    font 300 220%/2.5em 'Roboto', sans-serif
+
+#logohead
+    position absolute
+    top 55px
+    left 0
+    width 210px
+    transform rotate(-45deg)
+
+#tv-container
+    height inherit
+    margin 0 auto
+    width 600px
+    img:first-child
+        bottom -17px
+        position absolute
+        width inherit
+
+#terminal
+    position relative
+    font 50%/1.5em 'Press Start 2P', cursive
+    background #000
+    color $green
+    height 315px
+    width 435px
+    left 82px
+    top 270px
+    overflow hidden
+
+.owl1, .owl2, .owl3, .owl4
+    background url(../images/owlsprites.png) no-repeat
+    position absolute
+    margin-left 400px
+    margin-top 4px
+
+.owl1
+    background-position 0 0
+    width 157px
+    height 211px
+
+.owl2
+    background-position -160px 0
+    width 157px
+    height 211px
+
+.owl3
+    background-position -321px 0
+    width 157px
+    height 211px
+
+.owl4
+    background-position -483px 0
+    width 157px
+    height 211px
+
+//----------------------------------------------------------------//
+
+#main
+    position relative
+    background url(../images/pattern.png)
+    border-top 2px solid $green
+    padding-bottom 130px
+    overflow hidden
+
+#owlpix
+    left 50%
+    position absolute
+    margin 0 auto
+    margin-left -360px
+    width 700px
+    opacity 0.3
+    top -660px
+    z-index 0
+
+#branch
+    position absolute
+    top 850px
+    margin-left 10%
+    opacity 0.5
+    overflow hidden
+
+#main-container
+    position relative
+    margin 0 auto
+    max-width 1500px
+
+#logomain
+    position relative
+    width 80%
+    left 10%
+    margin-top 80px
+
+.space
+    margin-top 70px
+
+#about-container
+    position relative
+    margin 0 auto
+    height 1200px
+
+.box-wrapper
+    margin-top 150px
+    max-width 31%
+    float left
+    margin-left 1%
+    margin-right 1%
+    header span
+        background $green
+        color $dark
+        padding 5px
+    article span
+        background $dark
+        color $bright
+        font 300 100%/2.2em 'Roboto', sans-serif
+        padding 5px
+
+
+#work-container
+    width inherit
+    margin-left 1%
+    header span
+        background #EF4F32
+        color $bright
+        padding 5px
+
+.project-title
+    span:first-child
+        background #444
+        color $bright
+        font 100 150%/2.5em 'Roboto', sans-serif
+        width 600px
+        margin 10px auto
+        line-height 2.5em
+        border-left 6px solid $green
+        padding 5px
+        cursor pointer
+        cursor hand
+    span:last-child
+        background $dark
+        color #EEE
+        font 100 80%/2.5em "Courier New", Courier, monospace
+        width 600px
+        margin 10px auto
+        padding 2px 0px 2px 0px
+    span:first-child:hover
+        border-left 6px solid #EF4F32
+
+#foot
+    position relative
+    background $dark
+    margin 0
+    border-top 2px solid $green
+
+#logofoot
+    position relative
+    width 600px
+    margin-top 100px
+
+#contact-container
+    max-width 800px
+    width 85%
+    margin 0 auto
+    position relative
+    padding-bottom 50px
+    input, textarea
+        position relative
+        background $dark
+        border 0
+        font 1em "Courier New", Courier, monospace
+        border 16px solid #444
+        border-left 8px solid #555
+        padding 5px
+        width 100%
+        color $bright
+        opacity 0.8
+        margin-top 5px
+    header h2
+        text-transform lowercase
+        color $bright
+        text-align center
+        font-size 3.5em
+    textarea
+        height 240px
+        resize none
+    input:last-child
+        border-left 16px solid $green
+        width 130px
+        background #dark
+        cursor pointer
+        cursor hand
+    input:last-child:hover
+        border-left 16px solid #EF4F32
+        background #222
+
+#available
+    font 100 90%/2em "Courier New", Courier, monospace
+    color $bright
+    margin-top 20px
+    span
+        color $green
+        font-size 100%
+
+#ghlink img
+    position fixed
+    top 0
+    left 0
+    border 0
+    z-index 1
+
+#floor
+    position relative
+    height 50px
+    background #454545
+    margin 30px 0 auto
+    text-align right
+    img
+        position relative
+        height 50px
+        width 50px
+        padding 0
+        margin-left -4px
+        margin-bottom -4px
+        cursor pointer
+        cursor hand
+    p
+        position absolute
+        font 100 80%/2.5em 'Roboto', sans-serif
+        color #adadad
+        top 20px
+
+//------------------------------------------------------------------------//
+
+@media only screen and (max-width: 1500px)
+    #branch
+        position absolute
+        top 850px
+        left -5%
+        opacity 0.5
+        width 1800px
+
+@media only screen and (max-width: 1200px)
+    #branch
+        position absolute
+        top 850px
+        left 3%
+        width 1400px
+    #owlpix
+        top -600px
+        margin-left -300px
+        width 600px
+    .owl1, .owl2, .owl3, .owl4
+        margin-left 230px
+    #about-container
+        height 1050px
+    #work-container
+        margin-left 10%
+
+@media only screen and (max-width: 985px)
+    .box-wrapper
+        margin-top 50px
+        max-width 100%
+        margin-left 10%
+        header span
+            background $green
+            color $dark
+            padding 5px
+        article span
+            background $dark
+            color $bright
+            font 300 100%/2.2em 'Roboto', sans-serif
+            padding 5px
+    #branch
+        position absolute
+        top 1100px
+        left -2%
+        width 1200px
+    #owlpix
+        margin-left -260px
+        width 500px
+    #work-container
+        margin-left 5%
+    #ghlink img
+        position absolute
+    #about-container
+        height 1250px
+    #logofoot
+        width 500px
+
+@media only screen and (max-width: 640px)
+    .box-wrapper
+        margin-top 50px
+        max-width 100%
+        margin-left 1%
+        header span
+            background $green
+            color $dark
+            padding 5px
+        article span
+            background $dark
+            color $bright
+            font 300 100%/2.2em 'Roboto', sans-serif
+            padding 5px
+    #branch
+        position absolute
+        top 1150px
+        left -10%
+        width 1000px
+    #owlpix
+        margin-left -180px
+        width 350px
+    .owl1, .owl2, .owl3, .owl4
+        margin-left 166px
+    #tv-container
+        width 450px
+        img:first-child
+            bottom -13px
+    #work-container
+        margin-left 1%
+    #terminal
+        font-size 45%
+        height 235px
+        left 57px
+        top 257px
+        width 337px
+    #header
+        height 566px
+    #logofoot
+        width 100%
+
+@media only screen and (max-width: 490px)
+    .owl1, .owl2, .owl3, .owl4
+        margin-left 100px
+    #tv-container
+        width 350px
+    #terminal
+        height 183px
+        left 50px
+        top 246px
+        width 252px
+    #header
+        height 483px
+    #contact
+        input, textarea
+            width 90%
+        textarea
+            height 240px
+
+@media only screen and (max-width: 375px)
+    .owl1, .owl2, .owl3, .owl4
+        margin-left 80px
+    #tv-container
+        width 300px
+    #terminal
+        height 154px
+        left 40px
+        top 240px
+        width 220px
+    #header
+        height 441px
+
+@media only screen and (max-width: 320px)
+    .owl1, .owl2, .owl3, .owl4
+        margin-left 65px
+    #tv-container
+        img:first-child
+            display none
+    #terminal
+        display none
+    #header
+        height 206px

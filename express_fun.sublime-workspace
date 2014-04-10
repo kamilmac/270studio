@@ -1,0 +1,1658 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wa",
+				"wait"
+			],
+			[
+				"ha",
+				"has_touch"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ter",
+				"terminal-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"desc",
+				"descCurrent"
+			],
+			[
+				"obj",
+				"objId"
+			],
+			[
+				"pro",
+				"projectList"
+			],
+			[
+				"proj",
+				"projectListLength"
+			],
+			[
+				"mouse",
+				"mouseON"
+			],
+			[
+				"p",
+				"projectListLength"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"borde",
+				"border-left-width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"highlight",
+				"highlightCursor"
+			],
+			[
+				"col",
+				"col"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"content",
+				"contentSize"
+			],
+			[
+				"border-right",
+				"border-right-width"
+			],
+			[
+				"t",
+				"table	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/WebProjects/express/node_modules/stylus/lib/nodes/node.js",
+			"settings":
+			{
+				"buffer_size": 4380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/package.json",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/.bin/express.cmd",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/hjs/lib/express.js",
+			"settings":
+			{
+				"buffer_size": 2091,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n/**\n * Module dependencies.\n */\n\nvar express = require('express');\nvar routes = require('./routes');\nvar user = require('./routes/user');\nvar http = require('http');\nvar path = require('path');\n\nvar app = express();\n\n// all environments\napp.set('port', process.env.PORT || 3000);\napp.set('views', path.join(__dirname, 'views'));\napp.set('view engine', 'hjs');\napp.use(express.favicon());\n\n\napp.use(express.urlencoded());\napp.use(express.methodOverride());\napp.use(pp.raouter);\napp.use(require('stylus').middleware(path.join(__dirname, 'public')));\napp.use(express.static(path.join(__dirname, 'public')));\n\n// development only\nif ('development' == app.get('env')) {\n    function hil (argument) {\n\n    }\n  app.use(express.errorHandler());\n}\n\n\napp.get('/', routes.index);\n\n\nhttp.createServer(app).listen(app.get('port'), function(){\n    if (x > 10) {\n        if (xafafsfa) {\nif (condition) {\n\n}\n        } else {\n            kl === 10;\n        }\n    }\n  console.log('Express server listening on port ' + app.get('port'));\n});\n\nfor (var i = 0; i < elements.length; i++) {\nfor (var i = 0; i < elements.length; i++) {\n\n}\n    \n}\n\nif (condition) {\n    \n} else {\n    second expression\n}\n\n\nfor (var i = 0; i < elements.length; i++) {\n    \n}",
+			"file": "/D/WebProjects/express/app.js",
+			"file_size": 988,
+			"file_write_time": 130391170690908244,
+			"settings":
+			{
+				"buffer_size": 1230,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/stylus/node_modules/glob/node_modules/inherits/package.json",
+			"settings":
+			{
+				"buffer_size": 2403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/stylus/node_modules/mkdirp/test/perm.js",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/test/bench-multipart-parser.js",
+			"settings":
+			{
+				"buffer_size": 1632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is/package.json",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/node_modules/stylus/lib/nodes/ident.js",
+			"settings":
+			{
+				"buffer_size": 2273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar fs = require('fs')\n  , stylus = require('../lib/stylus')\n  , basename = require('path').basename\n  , dirname = require('path').dirname\n  , resolve = require('path').resolve\n  , join = require('path').join\n  , isWindows = process.platform === 'win32';\n\n/**\n * Arguments.\n */\n\nvar args = process.argv.slice(2);\n\n/**\n * Compare flag.\n */\n\nvar compare = false;\n\n/**\n * Compress flag.\n */\n\nvar c}}}}ompress = false;\n\n/**\n * CSS conversion flag.\n */\n\nvar convertCSS = false;\n\n/**\n * Line numbers flag.\n */\n\nvar linenos = false;\n\n/**\n * Print to stdout flag.\n */\nvar print = false;\n\n/**\n * Firebug flag\n */\n\nvar firebug = false;\n\n/**\n * Files to processes.\n */\n\nvar files = [];\n\n/**\n * Import paths.\n */\n\nvar paths = [];\n\n/**\n * Destination directory.\n */\n\nvar dest;\n\n/**\n * Watcher hash.\n */\n\nvar watchers;\n\n/**\n * Enable REPL.\n */\n\nvar interactive;\n\n/**\n * Plugins.\n */\n\nvar plugins = [];\n\n/**\n * Optional url() function.\n */\n\nvar urlFunction = false;\n\n/**\n * Include CSS on import.\n */\n\nvar includeCSS = false;\n\n/**\n * Set file imports.\n */\n\nvar imports = [];\n\n/**\n * Resolve relative urls\n */\n\nvar resolveURL = false;\n\n/**\n * Usage docs.\n */\n\nvar usage = [\n    ''\n  , '  Usage: stylus [options] [command] [< in [> out]]'\n  , '                [file|dir ...]'\n  , ''\n  , '  Commands:'\n  , ''\n  , '    help [<type>:]<prop> Opens help info at MDN for <prop> in'\n  , '                         your default browser. Optionally'\n  , '                         searches other resources of <type>:'\n  , '                         safari opera w3c ms caniuse quirksmode'\n  , ''\n  , '  Options:'\n  , ''\n  , '    -i, --interactive       Start interactive REPL'\n  , '    -u, --use <path>        Utilize the Stylus plugin at <path>'\n  , '    -U, --inline            Utilize image inlining via data URI support'\n  , '    -w, --watch             Watch file(s) for changes and re-compile'\n  , '    -o, --out <dir>         Output to <dir> when passing files'\n  , '    -C, --css <src> [dest]  Convert CSS input to Stylus'\n  , '    -I, --include <path>    Add <path> to lookup paths'\n  , '    -c, --compress          Compress CSS output'\n  , '    -d, --compare           Display input along with output'\n  , '    -f, --firebug           Emits debug infos in the generated CSS that'\n  , '                            can be used by the FireStylus Firebug plugin'\n  , '    -l, --line-numbers      Emits comments in the generated CSS'\n  , '                            indicating the corresponding Stylus line'\n  , '    -p, --print             Print out the compiled CSS'\n  , '    --import <file>         Import stylus <file>'\n  , '    --include-css           Include regular CSS on @import'\n  , '    -r, --resolve-url       Resolve relative urls inside imports'\n  , '    -V, --version           Display the version of Stylus'\n  , '    -h, --help              Display help information'\n  , ''\n].join('\\n');\n\n/**\n * Handle arguments.\n */\n\nvar arg;\nwhile (args.length) {\n  arg = args.shift();\n  switch (arg) {\n    case '-h':\n    case '--help':\n      console.error(usage);\n      process.exit(1);\n    case '-d':\n    case '--compare':\n      compare = true;\n      break;\n    case '-c':\n    case '--compress':\n      compress = true;\n      break;\n    case '-C':\n    case '--css':\n      convertCSS = true;\n      break;\n    case '-f':\n    case '--firebug':\n      firebug = true;\n      break;\n    case '-l':\n    case '--line-numbers':\n      linenos = true;\n      break;\n    case '-p':\n    case '--print':\n      print = true;\n    break;\n    case '-V':\n    case '--version':\n      console.log(stylus.version);\n      process.exit(0);\n      break;\n    case '-o':\n    case '--out':\n      dest = args.shift();\n      if (!dest) throw new Error('--out <dir> required');\n      break;\n    case 'help':\n      var name = args.shift()\n        , browser = name.split(':');\n      if (browser.length > 1) {\n        name = [].slice.call(browser, 1).join(':');\n        browser = browser[0];\n      } else {\n        name = browser[0];\n        browser = '';\n      }\n      if (!name) throw new Error('help <property> required');\n      help(name);\n      break;\n    case '--include-css':\n      includeCSS = true;\n      break;\n    case '-i':\n    case '--repl':\n    case '--interactive':\n      interactive = true;\n      break;\n    case '-I':\n    case '--include':\n      var path = args.shift();\n      if (!path) throw new Error('--include <path> required');\n      paths.push(path);\n      break;\n    case '-w':\n    case '--watch':\n      watchers = {};\n      break;\n    case '-U':\n    case '--inline':\n      args.unshift('--use', 'url');\n      break;\n    case '-u':\n    case '--use':\n      var options;\n      var path = args.shift();\n      if (!path) throw new Error('--use <path> required');\n\n      // options\n      if ('--with' == args[0]) {\n        args.shift();\n        options = args.shift();\n        if (!options) throw new Error('--with <options> required');\n        options = eval('(' + options + ')');\n      }\n\n      // url support\n      if ('url' == path) {\n        urlFunction = options || {};\n      } else {\n        paths.push(dirname(path));\n        plugins.push({ path: path, options: options });\n      }\n      break;\n    case '--import':\n      var file = args.shift();\n      if (!file) throw new Error('--import <file> required');\n      imports.push(file);\n      break;\n    case '-r':\n    case '--resolve-url':\n      resolveURL = true;\n      break;\n    default:\n      files.push(arg);\n  }\n}\n\n// if --watch is used, assume we are\n// not working with stdio\n\nif (watchers && !files.length) {\n  files = fs.readdirSync(process.cwd())\n    .filter(function(file){\n    return file.match(/\\.styl$/);\n  });\n}\n\n/**\n * Open the default browser to the CSS property `name`.\n *\n * @param {String} name\n */\n\nfunction help(name) {\n  var url\n    , exec = require('child_process').exec\n    , command;\n\n  name = encodeURIComponent(name);\n\n  switch (browser) {\n    case 'safari':\n    case 'webkit':\n      url = 'https://developer.apple.com/library/safari/search/?q=' + name;\n      break;\n    case 'opera':\n      url = 'http://dev.opera.com/search/?term=' + name;\n      break;\n    case 'w3c':\n      url = 'http://www.google.com/search?q=site%3Awww.w3.org%2FTR+' + name;\n      break;\n    case 'ms':\n      url = 'http://social.msdn.microsoft.com/search/en-US/ie?query=' + name + '&refinement=59%2c61';\n      break;\n    case 'caniuse':\n      url = 'http://caniuse.com/#search=' + name;\n      break;\n    case 'quirksmode':\n      url = 'http://www.google.com/search?q=site%3Awww.quirksmode.org+' + name;\n      break;\n    default:\n      url = 'https://developer.mozilla.org/en/CSS/' + name;\n  }\n\n  switch (process.platform) {\n    case 'linux': command = 'x-www-browser'; break;\n    default: command = 'open';\n  }\n\n  exec(command + ' \"' + url + '\"', function(){\n    process.exit(0);\n  });\n}\n\n// Compilation options\n\nvar options = {\n    filename: 'stdin'\n  , compress: compress\n  , firebug: firebug\n  , linenos: linenos\n  , paths: [process.cwd()].concat(paths)\n};\n\n// Buffer stdin\n\nvar str = '';\n\n// Convert CSS to Stylus\n\nif (convertCSS) {\n    switch (files.length) {\n    case 2:\n      compileCSSFile(files[0], files[1]);\n      break;\n    case 1:\n      compileCSSFile(files[0], files[0].replace(/\\.css$/i, '.styl'));\n      break;\n    default:\n      var stdin = process.openStdin();\n      stdin.setEncoding('utf8');\n      stdin.on('data', function(chunk){ str += chunk; });\n      stdin.on('end', function(){\n        var out = stylus.convertCSS(str);\n        console.log(out);\n      });\n  }\n} else if (interactive) {\n  repl();\n} else {\n  if (files.length) {\n    compileFiles(files);\n  } else {\n    compileStdio();\n  }\n}\n\n/**\n * Start Stylus REPL.\n */\n\nfunction repl() {\n  var options = { filename: 'stdin', imports: [join(__dirname, '..', 'lib', 'functions')] }\n    , parser = new stylus.Parser('', options)\n    , evaluator = new stylus.Evaluator(parser.parse(), options)\n    , rl = require('readline')\n    , repl = rl.createInterface(process.stdin, process.stdout, autocomplete)\n    , global = evaluator.global.scope;\n\n  // expose BIFs\n  evaluator.evaluate();\n\n  // readline\n  repl.setPrompt('> ');\n  repl.prompt();\n\n  // HACK: flat-list auto-complete\n  function autocomplete(line){\n    var out = process.stdout\n      , keys = Object.keys(global.locals)\n      , len = keys.length\n      , words = line.split(/\\s+/)\n      , word = words.pop()\n      , names = []\n      , name\n      , node\n      , key;\n\n    // find words that match\n    for (var i = 0; i < len; ++i) {\n      key = keys[i];\n      if (0 == key.indexOf(word)) {\n        node = global.lookup(key);\n        switch (node.nodeName) {\n          case 'function':\n            names.push(node.toString());\n            break;\n          default:\n            names.push(key);\n        }\n      }\n    }\n\n    return [names, line];\n  };\n\n  repl.on('line', function(line){\n    if (!line.trim().length) return repl.prompt();\n    parser = new stylus.Parser(line, options);\n    parser.state.push('expression');\n    evaluator.return = true;\n    try {\n      var expr = parser.parse();\n      var ret = evaluator.visit(expr);\n      var node;\n      while (node = ret.nodes.pop()) {\n        if (!node.suppress) {\n          var str = node.toString();\n          if ('(' == str[0]) str = str.replace(/^\\(|\\)$/g, '');\n          console.log('\\033[90m=> \\033[0m' + highlight(str));\n          break;\n        }\n      }\n      repl.prompt();\n    } catch (err) {\n      console.error('\\033[31merror: %s\\033[0m', err.message || err.stack);\n      repl.prompt();\n    }\n  });\n\n  repl.on('SIGINT', function(){\n    console.log();\n    process.exit(0);\n  });\n}\n\n/**\n * Highlight the given string of Stylus.\n */\n\nfunction highlight(str) {\n  return str\n    .replace(/(#)?(\\d+(\\.\\d+)?)/g, function($0, $1, $2){\n      return $1 ? $0 : '\\033[36m' + $2 + '\\033[0m';\n    })\n    .replace(/(#[\\da-fA-F]+)/g, '\\033[33m$1\\033[0m')\n    .replace(/('.*?'|\".*?\")/g, '\\033[32m$1\\033[0m');\n}\n\n/**\n * Convert a CSS file to a Styl file\n */\n\nfunction compileCSSFile(file, fileOut) {\n  fs.lstat(file, function(err, stat){\n    if (err) throw err;\n    if (stat.isFile()) {\n      fs.readFile(file, 'utf8', function(err, str){\n        if (err) throw err;\n        var styl = stylus.convertCSS(str);\n        fs.writeFile(fileOut, styl, function(err){\n         if (err) throw err;\n        });\n      });\n    }\n  });\n}\n\n/**\n * Compile with stdio.\n */\n\nfunction compileStdio() {\n  process.stdin.setEncoding('utf8');\n  process.stdin.on('data', function(chunk){ str += chunk; });\n  process.stdin.on('end', function(){\n    // Compile to css\n    var style = stylus(str, options);\n    if (includeCSS) style.set('include css', true);\n    if (resolveURL) style.set('resolve url', true);\n    usePlugins(style);\n    importFiles(style);\n    style.render(function(err, css){\n      if (err) throw err;\n      if (compare) {\n        console.log('\\n\\x1b[1mInput:\\x1b[0m');\n        console.log(str);\n        console.log('\\n\\x1b[1mOutput:\\x1b[0m');\n      }\n      console.log(css);\n      if (compare) console.log();\n    });\n  }).resume();\n}\n\n/**\n * Compile the given files.\n */\n\nfunction compileFiles(files) {\n  files.forEach(compileFile);\n}\n\n/**\n * Compile the given file.\n */\n\nfunction compileFile(file) {\n  // ensure file exists\n  fs.lstat(file, function(err, stat){\n    if (err) throw err;\n    // file\n    if (stat.isFile()) {\n      fs.readFile(file, 'utf8', function(err, str){\n        if (err) throw err;\n        options.filename = file;\n        options._imports = [];\n        var style = stylus(str, options);\n        if (includeCSS) style.set('include css', true);\n        if (resolveURL) style.set('resolve url', true);\n\n        usePlugins(style);\n        importFiles(style);\n        style.render(function(err, css){\n          watchImports(file, options._imports);\n          if (err) {\n            if (watchers) {\n              console.error(err.stack || err.message);\n            } else {\n              throw err;\n            }\n          } else {\n            writeFile(file, css);\n          }\n        });\n      });\n    // directory\n    } else if (stat.isDirectory()) {\n      fs.readdir(file, function(err, files){\n        if (err) throw err;\n        files.filter(function(path){\n          return path.match(/\\.styl$/);\n        }).map(function(path){\n          return join(file, path);\n        }).forEach(compileFile);\n      });\n    }\n  });\n}\n\n/**\n * Write the given CSS output.\n */\n\nfunction writeFile(file, css) {\n  // --print support\n  if (print) return process.stdout.write(css);\n  // --out support\n  var path = dest\n    ? join(dest, basename(file, '.styl') + '.css')\n    : file.replace(/\\.styl$/i, '.css');\n  fs.writeFile(path, css, function(err){\n    if (err) throw err;\n    console.log('  \\033[90mcompiled\\033[0m %s', path);\n    // --watch support\n    watch(file, compileFile);\n  });\n}\n\n/**\n * Watch the given `file` and invoke `fn` when modified.\n */\n\nfunction watch(file, fn) {\n  // not watching\n  if (!watchers) return;\n\n  // already watched\n  if (watchers[file]) return;\n\n  // watch the file itself\n  watchers[file] = true;\n  console.log('  \\033[90mwatching\\033[0m %s', file);\n  // if is windows use fs.watch api instead\n  // TODO: remove watchFile when fs.watch() works on osx etc\n  if (isWindows) {\n    fs.watch(file, function(event) {\n      if (event === 'change') fn(file);\n    });\n  } else {\n    fs.watchFile(file, { interval: 300 }, function(curr, prev) {\n      if (curr.mtime > prev.mtime) fn(file);\n    });\n  }\n}\n\n/**\n * Watch `imports`, re-compiling `file` when they change.\n */\n\nfunction watchImports(file, imports) {\n  imports.forEach(function(imported){\n    if (!imported.path) return;\n    watch(imported.path, function(){\n      compileFile(file);\n    });\n  });\n}\n\n/**\n * Utilize plugins.\n */\n\nfunction usePlugins(style) {\n  plugins.forEach(function(plugin){\n    var path = plugin.path;\n    var options = plugin.options;\n    fn = require(/^\\.+\\//.test(path) ? resolve(path) : path);\n    if ('function' != typeof fn) {\n      throw new Error('plugin ' + path + ' does not export a function');\n    }\n    style.use(fn(options));\n  });\n\n  if (urlFunction) {\n    style.define('url', stylus.url(urlFunction));\n  } else if (resolveURL) {\n    style.define('url', stylus.resolver());\n  }\n}\n\n/**\n * Imports the indicated files.\n */\n\nfunction importFiles(style) {\n  imports.forEach(function(file) {\n    style.import(file);\n  });\n}\n",
+			"file": "/D/WebProjects/express/node_modules/stylus/bin/stylus",
+			"file_size": 14386,
+			"file_write_time": 130391170913480986,
+			"settings":
+			{
+				"buffer_size": 14390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebProjects/express/routes/user.js",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * Module dependencies.\n */\n\nif (condition) {\nfun\n} else {\n  second expression\n}\n\nfunction(){\n\n}\n\n\n\n\n\nvar path = require('path')\n  , fs = require('fs')\n  , utils = require('./utils')\n  , dirname = path.dirname\n  , basename = path.basename\n  , extname = path.extname\n  , exists = fs.existsSync || path.existsSync\n  , join = path.join;\n\n/**\n * Expose `View`.\n */\n\nmodule.exports = View;\n\n/**\n * Initialize a new `View` with the given `name`.\n *\n * Options:\n *\n *   - `defaultEngine` the default template engine name\n *   - `engines` template engine require() cache\n *   - `root` root path for view lookup\n *\n * @param {String} name\n * @param {Object} options\n * @api private\n */\n\nfunction View(name, options) {\n  options = options || {};\n  this.name = name;\n  this.root = options.root;\n  var engines = options.engines;\n  this.defaultEngine = options.defaultEngine;\n  var ext = this.ext = extname(name);\n  if (!ext && !this.defaultEngine) throw new Error('No default engine was specified and no extension was provided.');\n  if (!ext) name += (ext = this.ext = ('.' != this.defaultEngine[0] ? '.' : '') + this.defaultEngine);\n  this.engine = engines[ext] || (engines[ext] = require(ext.slice(1)).__express);\n  this.path = this.lookup(name);\n}\n\n/**\n * Lookup view by the given `path`\n *\n * @param {String} path\n * @return {String}\n * @api private\n */\n\nView.prototype.lookup = function(path){\n  var ext = this.ext;\n\n  // <path>.<engine>\n  if (!utils.isAbsolute(path)) path = join(this.root, path);\n  if (exists(path)) return path;\n\n  // <path>/index.<engine>\n  path = join(dirname(path), basename(path, ext), 'index' + ext);\n  if (exists(path)) return path;\n};\n\n/**\n * Render with the given `options` and callback `fn(err, str)`.\n *\n * @param {Object} options\n * @param {Function} fn\n * @api private\n */\n\nView.prototype.render = function(options, fn){\n  this.engine(this.path, options, fn);\n};\n",
+			"file": "/D/WebProjects/express/node_modules/express/lib/view.js",
+			"file_size": 1819,
+			"file_write_time": 130392625070232238,
+			"settings":
+			{
+				"buffer_size": 1892,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"if",
+				"Snippet: if"
+			],
+			[
+				"for",
+				"Snippet: for (…) {…}"
+			],
+			[
+				"snip",
+				"Snippet: if"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"v",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 588.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/WebProjects/express/node_modules/stylus/node_modules/glob/node_modules/inherits/package.json",
+		"/D/WebProjects/express/node_modules/stylus/node_modules/mkdirp/test/perm.js",
+		"/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/test/bench-multipart-parser.js",
+		"/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is/package.json",
+		"/D/WebProjects/express/node_modules/stylus/lib/nodes/ident.js",
+		"/D/WebProjects/express/node_modules/stylus/bin/stylus",
+		"/D/WebProjects/express/node_modules/.bin/stylus",
+		"/D/WebProjects/express/node_modules/.bin/express",
+		"/D/WebProjects/express/node_modules/stylus/lib/nodes/if.js",
+		"/D/WebProjects/express/app.js",
+		"/D/WebProjects/express/views/index.hjs",
+		"/D/WebProjects/express/node_modules/express/lib/view.js",
+		"/D/WebProjects/express/public/stylesheets/style.styl",
+		"/D/WebProjects/express/node_modules/.bin/stylus.cmd",
+		"/D/WebProjects/express/node_modules/stylus/node_modules/sax/test/self-closing-tag.js",
+		"/D/WebProjects/express/package.json",
+		"/D/WebProjects/express/node_modules/stylus/node_modules/glob/test/new-glob-optional-options.js",
+		"/D/WebProjects/express/node_modules/stylus/lib/nodes/node.js",
+		"/D/WebProjects/express/node_modules/.bin/express.cmd",
+		"/D/WebProjects/express/node_modules/express/benchmarks/Makefile",
+		"/D/WebProjects/express/node_modules/express/benchmarks/middleware.js",
+		"/D/WebProjects/express/node_modules/express/benchmarks/run",
+		"/D/WebProjects/express/node_modules/express/bin/express",
+		"/D/WebProjects/express/node_modules/express/lib/application.js",
+		"/D/WebProjects/express/node_modules/express/lib/express.js",
+		"/D/WebProjects/express/node_modules/express/lib/middleware.js",
+		"/D/WebProjects/express/node_modules/express/lib/request.js",
+		"/D/WebProjects/express/node_modules/express/Readme.md",
+		"/D/WebProjects/express/node_modules/express/package.json",
+		"/D/WebProjects/express/node_modules/express/Makefile",
+		"/D/WebProjects/express/node_modules/express/LICENSE",
+		"/D/WebProjects/express/node_modules/express/index.js",
+		"/D/WebProjects/express/node_modules/express/History.md",
+		"/D/WebProjects/express/node_modules/express/.travis.yml",
+		"/D/WebProjects/express/node_modules/express/.npmignore",
+		"/D/WebProjects/express/routes/index.js",
+		"/D/WebProjects/express/node_modules/express/lib/response.js",
+		"/D/WebProjects/express/node_modules/express/lib/utils.js",
+		"/D/WebProjects/owlnode/package.json",
+		"/D/WebProjects/owlnode/.gitignore",
+		"/D/WebProjects/statictemplate/node-static-server-template/server.js",
+		"/D/WebProjects/nodetest/node-js-sample/web.js",
+		"/D/WebProjects/owlnode/server.js",
+		"/D/WebProjects/owlnode/gulpfile.js",
+		"/D/WebProjects/owlnode/dev/index.html",
+		"/D/WebProjects/owlnode/dev/styles/main.scss",
+		"/D/WebProjects/owlnode/dev/scripts/main.js",
+		"/D/WebProjects/owlnode/dev/scripts/terminal.js",
+		"/C/Users/kmaci_000/.ssh/id_rsa.pub",
+		"/D/WebProjects/owlnode/dev/scripts/project.js",
+		"/D/WebProjects/owlnode/dev/styles/0_normalize.scss",
+		"/D/WebProjects/owlnode/dev/styles/all.css",
+		"/D/WebProjects/owlnode/dev/scripts/all.min.js",
+		"/D/WebProjects/owlnode/app/scripts/project.js",
+		"/D/WebProjects/owlnode/app/scripts/terminal.js",
+		"/D/WebProjects/owlnode/app/scripts/main.js",
+		"/D/WebProjects/owlnode/app/index.html",
+		"/D/WebProjects/owlnode/app/styles/main.scss",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/WebProjects/owlnode/Procfile",
+		"/D/WebProjects/yoyo/server.js",
+		"/D/WebProjects/yoyo/gulpfile.js",
+		"/D/WebProjects/yoyo/public/index.html",
+		"/D/WebProjects/yoyo/package.json",
+		"/D/WebProjects/yoyo/node_modules/.bin/express",
+		"/D/WebProjects/yoyo/node_modules/.bin/express.cmd",
+		"/D/WebProjects/test/test.sublime-project",
+		"/D/WebProjects/test/package.json",
+		"/D/WebProjects/test/server.js",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/whatsgoingon/hey/isaidhey/whatsgoingon/test.txt",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._reunescapedhtml/node_modules/lodash._htmlescapes/index.js",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/node_modules/lodash._htmlescapes/index.js",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/pretty-hrtime/index.js",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/History.md",
+		"/D/WebProjects/test/node_modules/gulp/node_modules/semver/head.js",
+		"/D/WebProjects/test/node_modules/.bin/gulp",
+		"/D/WebProjects/test/node_modules/.bin/gulp.cmd",
+		"/D/WebProjects/test/node_modules/gulp/index.js",
+		"/D/GoogleDrive/Web projects/www/Portfolio/index.html",
+		"/D/GoogleDrive/Web projects/www/Portfolio/css/main.css",
+		"/D/GoogleDrive/Web projects/www/Portfolio/js/main.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393493891/debian/home/bwater/www/test_node/index.js",
+		"/C/Users/kmaci_000/.ssh/known_hosts",
+		"/C/Users/kmaci_000/Documents/MobaXterm/home/.ssh/id_rsa.pub",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393494895/debian/home/bwater/www/test_node/src/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393499343/debian/home/bwater/www/test_node/src/scss/main.scss",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393494722/debian/home/bwater/www/test_node/gulpfile.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393497509/debian/home/bwater/www/test_node/src/js/main.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393498310/debian/home/bwater/www/test_node/src/js/test2.js",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/kmaci_000/Documents/MobaXterm/home/.ssh/known_hosts",
+		"/C/Users/kmaci_000/Documents/MobaXterm/home/.ssh/id_rsa",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393426781/debian/home/bwater/www/test/gulpfile.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393494657/debian/home/bwater/www/test_node/package.json",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393430637/debian/home/bwater/www/test/public/js/main.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393458955/debian/home/bwater/www/test/public/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393494486/debian/home/bwater/www/test/package.json",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393425325/debian/home/bwater/www/test/app.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393494361/debian/home/bwater/www/test_node/package.json",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393428074/debian/home/bwater/www/test/public/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393425379/debian/home/bwater/www/test/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392714975/debian/home/bwater/www/owl/package.json",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392714229/debian/home/bwater/www/owl/Gruntfile.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392714961/debian/home/bwater/www/owl/bower.json",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392300525/debian/home/bwater/www/owl/app/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392300546/debian/home/bwater/www/owl/app/styles/main.scss",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392820889/debian/home/bwater/www/owl/app/scripts/project.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392638582/debian/home/bwater/www/owl/app/scripts/terminal.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392300538/debian/home/bwater/www/owl/app/scripts/main.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1393418124/debian/home/bwater/www/express/views/index.jade",
+		"/D/GoogleDrive/www/Portfolio/css/main.css",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392815750/debian/home/bwater/www/owl/app/scripts/snakes.js",
+		"/C/Users/kmaci_000/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392714181/debian/home/bwater/www/owl/.bowerrc",
+		"/D/GoogleDrive/www/Portfolio/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392300687/debian/home/bwater/www/owl/Gruntfile.js",
+		"/C/Users/kmaci_000/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/debian",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392194472/debian/home/bwater/www/owl/app/styles/main.scss",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392194442/debian/home/bwater/www/owl/app/index.html",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392194796/debian/home/bwater/www/owl/Gruntfile.js",
+		"/C/users/kmaci_~1/appdata/local/temp/sublime-sftp-browse-1392194308/debian/home/bwater/www/owl/app/scripts/main.js",
+		"/D/GoogleDrive/www/debian/sftp-config.json",
+		"/D/GoogleDrive/www/Terminal/app/index.html",
+		"/D/GoogleDrive/www/Terminal/app/styles/main.scss"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"index.html",
+			"controllers.js",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"use",
+			"s",
+			"express",
+			"app",
+			"express",
+			"');\n",
+			"app",
+			"basedir",
+			"head",
+			">\n",
+			"h1",
+			"Welcome",
+			"html",
+			"\n</",
+			"value",
+			"key",
+			"value",
+			"length",
+			"build",
+			"app",
+			"server =",
+			".pipe(sas",
+			"CLEANDIR",
+			" ['./",
+			">",
+			"var ",
+			"alt",
+			"tools",
+			"></",
+			"jpg",
+			"bower_components",
+			"hostname",
+			"^*\n",
+			"test",
+			"zmienna",
+			"test",
+			"git",
+			"vid",
+			"width",
+			"div",
+			"find",
+			">\n",
+			"should",
+			"script",
+			"class",
+			"Body",
+			"body",
+			"span10",
+			"\n        ",
+			"select",
+			"option",
+			">\n",
+			"ctrl+<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"div",
+			"vid"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/WebProjects/express/node_modules/stylus/lib/nodes/node.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4378,
+								4378
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2922.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/WebProjects/express/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/WebProjects/express/node_modules/.bin/express.cmd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/WebProjects/express/node_modules/hjs/lib/express.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/WebProjects/express/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1230,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "bookmarks"
+							},
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										422,
+										422
+									]
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								909,
+								909
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 151.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/WebProjects/express/node_modules/stylus/node_modules/glob/node_modules/inherits/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/WebProjects/express/node_modules/stylus/node_modules/mkdirp/test/perm.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/test/bench-multipart-parser.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/WebProjects/express/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/D/WebProjects/express/node_modules/stylus/lib/nodes/ident.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/D/WebProjects/express/node_modules/stylus/bin/stylus",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/D/WebProjects/express/routes/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/D/WebProjects/express/node_modules/express/lib/view.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 25.0
+	},
+	"project": "express_fun.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"vie",
+				"node_modules\\express\\lib\\view.js"
+			],
+			[
+				"",
+				"app.js"
+			],
+			[
+				"styl",
+				"node_modules\\stylus\\bin\\stylus"
+			],
+			[
+				"node",
+				"node_modules\\stylus\\lib\\nodes\\node.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"if",
+				"node_modules\\stylus\\lib\\nodes\\if.js"
+			],
+			[
+				"views",
+				"node_modules\\express\\lib\\view.js"
+			],
+			[
+				"view",
+				"node_modules\\express\\lib\\view.js"
+			],
+			[
+				"packa",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\WebProjects\\owlnode\\owlnode.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 759.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
